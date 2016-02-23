@@ -1,5 +1,33 @@
 /* Empty. Add your own CSS if you like */
 
-#map-container {height: 250px; width: 100%;}
+body, .ionic-body {color:#999999;}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {color:#666;}
+
 
 .loading-container .loading { background-color: transparent !important;}
+
+
+/*-- Google Map--*/
+
+#map-container {height: 200px; width: 100%;}
+
+.gmnoprint a, .gmnoprint span {
+    display:none;
+}
+.gmnoprint div {
+    background:none !important;
+}
+
+img[src="https://maps.gstatic.com/mapfiles/api-3/images/google4_hdpi.png"], a[href^="http://maps.google.com/maps"]{
+    display:none !important;
+}
+
+/*-- Icon Color --*/
+.item-icon-left .icon:before, .item-icon-right .icon:before {color:#00c5ad ;}
+
+/*-- Sedi Map --*/
+ 
+.style-map-card h4{margin-bottom: 0px;}
+.style-map-card .item{ border-color: #eee; padding: 15px 5px 15px 52px;}
+.style-map-card .item-icon-left .icon, .style-map-card .item-icon-right .icon {font-size: 23px;}

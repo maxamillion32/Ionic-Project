@@ -1,4 +1,12 @@
 {
   "name": "Joker Dance",
-  "app_id": "a2b7d245"
+  "app_id": "a2b7d245",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
 }
