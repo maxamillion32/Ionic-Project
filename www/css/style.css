@@ -1,12 +1,91 @@
 /* Empty. Add your own CSS if you like */
 
-body, .ionic-body {color:#999999;}
+body, .ionic-body {
+  color: #839896;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  color: #3B4848;
+}
+.item p {
+  color: #839896;
+}
+.loading-container .loading {
+  background-color: transparent !important;
+}
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {color:#666;}
+/*-- Google Map--*/
+
+#map-container {
+  height: 200px;
+  width: 100%;
+}
+.gmnoprint a, .gmnoprint span {
+  display: none;
+}
+.gmnoprint div {
+  background: none !important;
+}
+img[src="https://maps.gstatic.com/mapfiles/api-3/images/google4_hdpi.png"], a[href^="http://maps.google.com/maps"] {
+  display: none !important;
+}
+
+/*-- Icon Color --*/
+
+.item-icon-left .icon:before, .item-icon-right .icon:before {
+  color: #00c5ad;
+}
+
+/*-- Sedi Map --*/
+
+.style-map-card h4 {
+  margin-bottom: 0px;
+}
+.style-map-card .item {
+  border-color: #eee;
+  padding: 15px 5px 15px 52px;
+}
+.style-map-card .item-icon-left .icon, .style-map-card .item-icon-right .icon {
+  font-size: 30px;
+}
+
+/*-- Eventi --*/
+.event-container .item-content{
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.event-container .item-avatar.item-complex {
+  margin-bottom: 1px;
+  border: none;
+  border-bottom: 1px;
+  border-bottom-color: #E6E4E4;
+  border-bottom-style: solid;
+}
+
+body, .ionic-body {color:#839896;}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {color:#3B4848;}
 
 
 .loading-container .loading { background-color: transparent !important;}
 
+/*--- Evento ---*/
+.event-img {
+   -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    text-align: center;
+}
+
+.event-info {padding: 0 20px;}
+
+
+.event-title {margin-bottom: 5px;text-align: left;}
 
 /*-- Google Map--*/
 
@@ -30,4 +109,4 @@ img[src="https://maps.gstatic.com/mapfiles/api-3/images/google4_hdpi.png"], a[hr
  
 .style-map-card h4{margin-bottom: 0px;}
 .style-map-card .item{ border-color: #eee; padding: 15px 5px 15px 52px;}
-.style-map-card .item-icon-left .icon, .style-map-card .item-icon-right .icon {font-size: 23px;}
+.style-map-card .item-icon-left .icon, .style-map-card .item-icon-right .icon {font-size: 30px;}

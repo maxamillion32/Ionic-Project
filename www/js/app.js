@@ -51,6 +51,17 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
       }
     })
 
+
+  .state('app.evento', {
+      url: '/evento',
+      views: {
+        'tab-eventi': {
+          templateUrl: 'templates/evento.html',
+          
+        }
+      }
+    })
+
     .state('app.corsi', {
       url: '/corsi',
       views: {
@@ -75,6 +86,15 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
       views: {
         'tab-sedi': {
           templateUrl: 'templates/sedi.html',
+        }
+      }
+    })
+
+    .state('app.sede', {
+      url: '/sede',
+      views: {
+        'tab-sedi': {
+          templateUrl: 'templates/sede.html',
           controller: 'MapCtrl'
         }
       }
